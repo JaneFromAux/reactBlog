@@ -71,8 +71,8 @@ button {
 /********************************** 
           HOME
 **********************************/
-.homeContainer {
-  width: 40vw;
+.homeContainer img {
+  width: 100vw;
 }
 
 .homeContainer h1,
