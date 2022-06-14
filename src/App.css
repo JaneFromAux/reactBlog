@@ -1,0 +1,81 @@
+/************************* 
+          NAV
+*************************/
+nav {
+  color: darkgreen;
+  padding: 2vh 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav>ul>li {
+  margin: 0 30px;
+}
+
+a {
+  font-size: 1.2rem;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+/* ****************************
+          BLOG.js
+*****************************/
+.itemContainer {
+  padding: 5vh 8vw;
+}
+
+.itemCard {
+  padding: 2vh 2vw 10vh 2vw;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.itemCard img {
+  border-radius: 20px;
+  height: 18vw;
+  width: 24vw;
+}
+
+.itemCard a,
+button {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: darkgreen;
+  border: 2px solid green;
+  border-radius: 10px;
+  background: white;
+}
+
+.itemDetail {
+  padding: 2vh 2vw 10vh 2vw;
+  font-size: 1.8rem;
+}
+
+/********************************** 
+          BlogDetails
+ **********************************/
+.itemDetail img {
+  border-radius: 20px;
+  height: 70vh;
+  width: 90vw;
+}
+
+/********************************** 
+          HOME
+**********************************/
+.homeContainer {
+  width: 40vw;
+}
+
+.homeContainer h1,
+.homeContainer button {
+  margin: 8vh 0 0 15vw;
+}
