@@ -42,6 +42,7 @@ a {
   border-radius: 20px;
   height: 18vw;
   width: 24vw;
+  box-shadow: 0 0 10px gray;
 }
 
 .itemCard a,
@@ -62,10 +63,17 @@ button {
 /********************************** 
           BlogDetails
  **********************************/
+.itemDetail {
+  box-shadow: 0 0 10px gray;
+  width: 40vw;
+  margin: 3vh auto;
+  border-radius: 20px;
+}
+
 .itemDetail img {
   border-radius: 20px;
-  height: 70vh;
-  width: 90vw;
+  height: 55vh;
+  width: 100%;
 }
 
 /********************************** 
